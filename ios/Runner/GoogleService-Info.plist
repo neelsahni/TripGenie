@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>517084077434-8erl3sg4epu972ncu4qgup7fme8jlbpl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.517084077434-8erl3sg4epu972ncu4qgup7fme8jlbpl</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBkhM_KYLoVq-cRvdbK0R39H4Bp8RapxsU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>517084077434</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.aiTripPlanner</string>
+	<key>PROJECT_ID</key>
+	<string>aitripplanner-9890b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>aitripplanner-9890b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:517084077434:ios:89344663625341f1014ac3</string>
+</dict>
+</plist>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "517084077434",
+    "project_id": "aitripplanner-9890b",
+    "storage_bucket": "aitripplanner-9890b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517084077434:android:cd18d6f68d779250014ac3",
+        "android_client_info": {
+          "package_name": "com.example.ai_trip_planner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517084077434-u5ovdt5hi48su89hgkkrudhcfncgnruc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANXKbf9jHxLoDFl3B3FSnLRXVnBwvS-Ok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517084077434-u5ovdt5hi48su89hgkkrudhcfncgnruc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
