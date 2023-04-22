@@ -68,6 +68,9 @@ dependencies:
   csv: ^5.0.1
   google_mobile_ads: ^2.0.1
   flutter_native_image: ^0.0.6
+  cached_network_image: ^3.2.3
+  flutter_animate: ^4.1.1+1
+  google_fonts: ^4.0.3
 
 dev_dependencies:
   flutter_test:
