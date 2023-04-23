@@ -1,0 +1,11 @@
+framework module document_scanner_flutter {
+  umbrella header "document_scanner_flutter-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module document_scanner_flutter.Swift {
+  header "document_scanner_flutter-Swift.h"
+  requires objc
+}
