@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/WeScan.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		7JKT8/202kAi7nBgvCchrhOdiR4=
+		F4So4bLMJCFDVQBJ/xBSUk/JTNA=
 		</data>
 		<key>Modules/WeScan.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		cRRyo8uj25vRa04IhomNRRBm/kk=
+		9MUZUrPq8IqTQBx0l/Z3s+8ybtc=
 		</data>
 		<key>Modules/WeScan.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -270,22 +270,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7JKT8/202kAi7nBgvCchrhOdiR4=
+			F4So4bLMJCFDVQBJ/xBSUk/JTNA=
 			</data>
 			<key>hash2</key>
 			<data>
-			syA0CAKTEt6GPnkvzsEhC8s1er4DCPhKpRzE5Yag3Hg=
+			SFi6BCYgoKSWUYeUZJKjo07/dvfr5RqiuViDeBqJimI=
 			</data>
 		</dict>
 		<key>Modules/WeScan.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cRRyo8uj25vRa04IhomNRRBm/kk=
+			9MUZUrPq8IqTQBx0l/Z3s+8ybtc=
 			</data>
 			<key>hash2</key>
 			<data>
-			9QxfRVw9sgBNRksjnXYpZkqJpu+fYuHZ4FiUBUH+zkw=
+			ts8rbFnF8uldg017JfrBBkDJOJCG+Nr0MmVzSSHKZy4=
 			</data>
 		</dict>
 		<key>Modules/WeScan.swiftmodule/arm64-apple-ios-simulator.abi.json</key>

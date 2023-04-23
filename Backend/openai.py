@@ -3,11 +3,9 @@ import json
 import requests
 from flask import escape
 
-openai.api_key = "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"
-API_URL = "https://api.openai.com/v1/engines/davinci-codex/completions"
+openai.api_key = ""
+API_URL = "https://api.openai.com/v1/engines/davinci/completions"
 
-
-#entry point for the cloud function
 def gpt_cloud_function(request):
     """Responds to any HTTP request.
     Args:
@@ -22,35 +20,25 @@ def gpt_cloud_function(request):
         return response
     except Exception as e:
         return str(e)
+    
 
 def fetch_and_generate_response(request):
     request_json = request.get_json()
-    if request.args and 'url' in request.args:
-        prompt_URL = request.args.get('url')
-    elif request_json and 'url' in request_json:
-        prompt_URL = request_json['url']
+    if request.args and 'input' in request.args:
+        prompt_text = request.args.get('input')
+    elif request_json and 'input' in request_json:
+        prompt_text = request_json['input']
     else:
-        return 'Please provide a URL as a query parameter or in JSON format.'
+        return 'Please provide an input string as a query parameter or in JSON format.'
 
-    headers = {
-        "Content-Type": "application/json",
-        "Authorization": f"Bearer {openai.api_key}"
-    }
+    response = openai.Completion.create(
+        model="text-davinci-003",
+        prompt=prompt_text,
+        max_tokens=300,
+        temperature=0,
+    )
 
-    response = requests.get(prompt_URL)
-    if response.ok:
-        prompt_text = response.text.strip()
-    else:
-        raise Exception("Failed to fetch prompt from URL")
-    
-    data = {
-        "prompt": prompt_text,
-        "max_tokens": 100,
-        "temperature": 0.7,
-    }
-    response = requests.post(API_URL, headers=headers, json=data)
-
-    if response.ok:
-        return response.text
+    if response:
+        return json.dumps(response.choices[0].text.strip())
     else:
         raise Exception("Failed to generate response from OpenAI API")

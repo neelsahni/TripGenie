@@ -1,10 +1,12 @@
 import 'package:ai_trip_planner/components/TextFieldAdd.dart';
 import 'package:ai_trip_planner/screens/MyProfile.dart';
 import 'package:ai_trip_planner/screens/start_screen.dart';
+import 'package:ai_trip_planner/services/APIrequest.dart';
 import 'package:ai_trip_planner/services/verifyUser.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+
 
 //global variables
 
@@ -45,12 +47,6 @@ class _MainPageState extends State<MainPage> {
     
   }
 
-  @override
-  void dispose() {
-    //_rewardedAd.dispose();
-    super.dispose();
-  }
-   
 
   //TODO: maybe refactor since more than one using
   Future<void> getCurrentUser() async {
@@ -67,6 +63,7 @@ class _MainPageState extends State<MainPage> {
       print(e);
     }
   }
+
 
   @override
   Widget build(BuildContext context) {
@@ -162,7 +159,15 @@ class _MainPageState extends State<MainPage> {
               onchanged: (name) {
                 print(name);
               },
-            )
+            ),
+            TextButton(
+              child: Text("Test API"),
+              
+            onPressed: () async {
+             String test = await (triggerCloudFunction("Hello"));
+             print(test);
+
+           },)
           ],
         ),
       ),
