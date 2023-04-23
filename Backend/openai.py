@@ -6,6 +6,23 @@ from flask import escape
 openai.api_key = "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"
 API_URL = "https://api.openai.com/v1/engines/davinci-codex/completions"
 
+
+#entry point for the cloud function
+def gpt_cloud_function(request):
+    """Responds to any HTTP request.
+    Args:
+        request (flask.Request): HTTP request object.
+    Returns:
+        The response text or any set of values that can be turned into a
+        Response object using
+        `make_response <http://flask.pocoo.org/docs/1.0/api/#flask.Flask.make_response>`.
+    """
+    try:
+        response = fetch_and_generate_response(request)
+        return response
+    except Exception as e:
+        return str(e)
+
 def fetch_and_generate_response(request):
     request_json = request.get_json()
     if request.args and 'url' in request.args:
