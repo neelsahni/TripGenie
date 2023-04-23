@@ -1,6 +1,7 @@
 import 'dart:io' show Platform, stdout;
 //import 'package:ai_trip_planner/screens/IntroSlider.dart';
 import 'package:ai_trip_planner/screens/Login.dart';
+import 'package:ai_trip_planner/screens/SignupQuestions.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:ai_trip_planner/screens/mainpage.dart';
@@ -138,8 +139,7 @@ class _StartpagecontentState extends State<Startpagecontent> {
                                         Navigator.push(
                                           context,
                                           MaterialPageRoute(
-                                              builder: (context) =>
-                                                  MainPage(),
+                                              builder: (context) => Questions(),
                                               fullscreenDialog: true),
                                         );
                                       });
@@ -176,7 +176,7 @@ class _StartpagecontentState extends State<Startpagecontent> {
                                                 context,
                                                 MaterialPageRoute(
                                                     builder: (context) =>
-                                                        MainPage(),
+                                                        Questions(),
                                                     fullscreenDialog: true));
                                           }
                                         });
@@ -194,27 +194,28 @@ class _StartpagecontentState extends State<Startpagecontent> {
                           ),
                           Padding(
                             padding: const EdgeInsets.all(1.0),
-                            child: SignInButton(
-                              Buttons.Email,
-                              text: 'Start with Email',
-                              onPressed: () {
-                                Navigator.push(context, MaterialPageRoute(builder: (context) => Sign_in())
-                            );}
-                          ),
-                          //sign in without any account
-                          // Padding(
-                          //   padding: const EdgeInsets.all(4.0),
-                          //   child: GestureDetector(
-                          //     child: Text('Continue without account'),
-                          //     onTap: () {
-                          //       Navigator.push(
-                          //           context,
-                          //           MaterialPageRoute(
-                          //               builder: (context) => Main_page()));
-                          //     },
-                          //   ),
-                          // ),
-                      )],
+                            child: SignInButton(Buttons.Email,
+                                text: 'Start with Email', onPressed: () {
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => Sign_in()));
+                            }),
+                            //sign in without any account
+                            // Padding(
+                            //   padding: const EdgeInsets.all(4.0),
+                            //   child: GestureDetector(
+                            //     child: Text('Continue without account'),
+                            //     onTap: () {
+                            //       Navigator.push(
+                            //           context,
+                            //           MaterialPageRoute(
+                            //               builder: (context) => Main_page()));
+                            //     },
+                            //   ),
+                            // ),
+                          )
+                        ],
                       ),
                     ),
                   ),

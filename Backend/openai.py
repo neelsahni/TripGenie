@@ -3,7 +3,7 @@ import json
 import requests
 from flask import escape
 
-openai.api_key = "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"
+openai.api_key = "Secret OpenAI API Key"
 API_URL = "https://api.openai.com/v1/engines/davinci/completions"
 
 def gpt_cloud_function(request):
