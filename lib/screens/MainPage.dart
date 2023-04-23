@@ -1,6 +1,10 @@
 import 'package:ai_trip_planner/components/TextFieldAdd.dart';
 import 'package:flutter/material.dart';
 
+//global variables
+
+String name = "";
+
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});

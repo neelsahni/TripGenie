@@ -1,4 +1,5 @@
 import 'package:ai_trip_planner/screens/MainPage.dart';
+import 'package:ai_trip_planner/screens/start_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
                 navigatorKey: _navigatorKey,
                 debugShowCheckedModeBanner: false,
                 title: 'AI TRIP PLANNER',
-                home: const MainPage()
+                home: Startpagecontent()
              
             );
           } else {
