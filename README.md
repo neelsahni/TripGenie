@@ -29,4 +29,4 @@ Above all, we’re proud of building a completed project from scratch. Building 
 
 ## Looking Ahead
 
-(come up with some other feature)
+While we're happy with the product we've made, we recognize that the best trips are shared expereinces. That's why we want to implement a feature that allows for group trip planning, which seamlessly allows users to create a trip for a group of up to 18 companions.
