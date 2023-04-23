@@ -1,7 +1,7 @@
 # ai_trip_planner
 
-A new Flutter project.
+A revolutionary way to travel.
 
-## Getting Started
+## Overview
 
 This project is a starting point for a Flutter application.
