@@ -1,4 +1,4 @@
-import 'package:ai_trip_planner/home_page.dart';
+import 'package:ai_trip_planner/screens/MainPage.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
                 navigatorKey: _navigatorKey,
                 debugShowCheckedModeBanner: false,
                 title: 'AI TRIP PLANNER',
-                home: const MyHomePage(title: 'Airbnb Flutter Clone Project'),
+                home: const MainPage()
              
             );
           } else {
