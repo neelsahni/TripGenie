@@ -8,7 +8,7 @@ In 2023, planning a trip is a daunting task. The seemingly endless options for h
 
 ### That's where TripGenie comes in. 
 
-TripGenie streamlines trip planning by taking care of the logistics, freeing travelers from the burden of organizing every detail. Our goal is to make travel planning more accessible, efficient, and enjoyable for everyone – your trip is our command.
+TripGenie streamlines trip planning by taking care of the logistics, freeing travelers from the burden of organizing every detail. Our goal is to make travel planning more accessible, efficient, and enjoyable for everyone. Put simply, your trip is our command.
 
 ## Core Functionality
 
