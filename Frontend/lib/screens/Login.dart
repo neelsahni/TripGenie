@@ -1,5 +1,6 @@
 import 'package:ai_trip_planner/components/ErrorAlert.dart';
 import 'package:ai_trip_planner/components/SizeConfig.dart';
+import 'package:ai_trip_planner/screens/SignupQuestions.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 //import 'package:ai_trip_planner/screens/IntroSlider.dart'; we can later implement a Intro slider
@@ -151,7 +152,7 @@ class _Sign_inState extends State<Sign_in> {
                                     context,
                                     MaterialPageRoute(
                                       //TODO: change back to IntroScreen once implemented
-                                        builder: (context) => MainPage(),
+                                        builder: (context) => Questions(),
                                         fullscreenDialog: true));
                               }
                             });
