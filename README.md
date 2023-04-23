@@ -1,6 +1,6 @@
 # ai_trip_planner
 
-A revolutionary way to travel.
+Travel revolutionzed. 
 
 ## Overview
 
