@@ -2,8 +2,6 @@
 
 A revolutionary way to travel.
 
-https://github.com/danielgao20/TripGenie/blob/master/images/homepage.png![image](https://github.com/neelsahni/TripGenie/assets/112041284/98953fc6-6427-4891-903a-5241bcb6237d)
-
 
 ## Overview
 
