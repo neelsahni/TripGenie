@@ -2,6 +2,9 @@
 
 A revolutionary way to travel.
 
+https://github.com/danielgao20/TripGenie/blob/master/images/homepage.png![image](https://github.com/neelsahni/TripGenie/assets/112041284/98953fc6-6427-4891-903a-5241bcb6237d)
+
+
 ## Overview
 
 In 2023, planning a trip is a daunting task. The seemingly endless options for hotels, flights, and destinations, combined with the constraints of time and cost, turns a simple chore into a logistical nightmare. 
