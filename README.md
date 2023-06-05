@@ -2,6 +2,7 @@
 
 A revolutionary way to travel.
 
+![](images/homepage.png)
 
 ## Overview
 
